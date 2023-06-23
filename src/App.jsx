@@ -1,9 +1,12 @@
 import { RouterProvider } from 'react-router-dom';
-import './App.css';
 import { routes } from './Routes/Routes';
 
 function App() {
-  return <RouterProvider router={routes} />;
+  return (
+    <div className=" mx-auto  container">
+      <RouterProvider router={routes} />
+    </div>
+  );
 }
 
 export default App;

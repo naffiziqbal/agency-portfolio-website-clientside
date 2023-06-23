@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "jest": true
+        "jest": true,
+        "tailwind.config.cjs": true
     },
     "extends": [
         "eslint:recommended",

@@ -6,17 +6,22 @@ const Header = () => {
     menuItems: (
       <>
         <li>
-          {' '}
-          <Link>Home</Link>
+          <Link>About</Link>
         </li>
         <li>
-          <Link>About</Link>
+          <Link>Service</Link>
+        </li>
+        <li>
+          <Link>Pricing</Link>
+        </li>
+        <li>
+          <Link>Blog</Link>
         </li>
       </>
     ),
   };
   return (
-    <div className="navbar bg-base-100 shadow-lg">
+    <div className="navbar bg-primary ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,13 +47,15 @@ const Header = () => {
             {menuItems.menuItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Custom Template</a>
+        <a className="btn btn-ghost normal-case text-xl">Brand Logo</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{menuItems.menuItems}</ul>
       </div>
 
-      <div className="navbar-end"></div>
+      <div className="navbar-end">
+        <button className=" btn btn-outline uppercase"> Contact</button>
+      </div>
     </div>
   );
 };
