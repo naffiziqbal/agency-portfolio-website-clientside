@@ -7,7 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --fix --ext .ts,.tsx ./src"
+    "lint": "eslint --fix --ext .ts,.tsx ./src",
+    "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "lint:fix": "eslint . --fix",
+    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:fix": "prettier --write .",
+    "lint-prettier": "npm run lint:check && npm run prettier:check"
   },
   "dependencies": {
     "daisyui": "^2.51.4",
@@ -17,7 +22,7 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "npm run lint"
+      "npm run lint-prettier"
     ]
   },
   "devDependencies": {
