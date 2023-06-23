@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint:fix": "eslint --fix --ext .js,.jsx ",
     "lint:check": "eslint --ext .js,.jsx",
-    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|jsx|json)\"",
     "prettier:fix": "prettier --write .",
     "lint-prettier": "npm run lint:check && npm run prettier:check"
   },
