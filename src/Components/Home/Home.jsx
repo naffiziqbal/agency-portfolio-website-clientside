@@ -1,9 +1,12 @@
 import React from 'react';
+import Hero from './Components/Hero';
 
 const Home = () => {
   return (
     <div className="bg-primary">
-      <p className="text-3xl font-semibold">This Is Home Component</p>
+      <div className="mx-auto container">
+        <Hero />
+      </div>
     </div>
   );
 };
