@@ -1,12 +1,12 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const menuItems = {
     menuItems: (
       <>
         <li>
-          {" "}
+          {' '}
           <Link>Home</Link>
         </li>
         <li>
@@ -48,8 +48,7 @@ const Header = () => {
         <ul className="menu menu-horizontal px-1">{menuItems.menuItems}</ul>
       </div>
 
-      <div className="navbar-end">
-      </div>
+      <div className="navbar-end"></div>
     </div>
   );
 };
