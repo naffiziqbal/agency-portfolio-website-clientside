@@ -3,7 +3,6 @@ import './App.css';
 import { routes } from './Routes/Routes';
 
 function App() {
-  console.log('Nafiz');
   return <RouterProvider router={routes} />;
 }
 
