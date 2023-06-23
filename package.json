@@ -8,10 +8,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint:fix": "eslint --fix --ext .js,.jsx ",
-    "lint:check": "eslint --ext .js, .jsx .",
+    "lint:check": "eslint --ext .js,.jsx",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "prettier:fix": "prettier --write .",
-    "lint-prettier": "npm run prettier:check"
+    "lint-prettier": "npm run lint:check && npm run prettier:check"
   },
   "dependencies": {
     "daisyui": "^2.51.4",
