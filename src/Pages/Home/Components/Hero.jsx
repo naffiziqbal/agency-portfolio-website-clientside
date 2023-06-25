@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="flex justify-between flex-col-reverse md:flex-row lg:flex-row  items-center  ">
         <div className="mx-5 lg:max-w-[50%] h-full">
           <div className="lg:max-w-[513px] my-10 ">
-            <p className="uppercase text-[#EF6D58] text-base leading-8 tracking-widest">
+            <p className="uppercase text-secondary text-base leading-8 tracking-widest">
               {' '}
               Modern Studio
             </p>
