@@ -5,7 +5,7 @@ import About from './Components/About';
 
 const Home = () => {
   return (
-    <div className="bg-[#28293E]">
+    <div className="bg-[#28293E] font-MyFont">
       <div className="mx-auto container">
         <Hero />
       </div>
