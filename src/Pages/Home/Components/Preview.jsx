@@ -13,7 +13,7 @@ const Preview = () => {
           allowfullscreen
         ></iframe>
       </div>
-      <div className=" flex flex-col items-center max-w-[50%] w-full ">
+      <div className=" flex flex-col  lg:max-w-[50%] ">
         <h5 className="uppercase text-secondary font-base leaelding-8 tracking-wide">
           Video Reel
         </h5>

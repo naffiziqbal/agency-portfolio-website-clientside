@@ -52,7 +52,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="flex flex-nowrap flex-col md:flex-row  lg:flex-row justify-between items-center my-12 gap-5 ">
+      <div className="flex flex-nowrap flex-col md:flex-row  lg:flex-row justify-between items-center my-12 gap-5 px-7 ">
         <div className="lg:w-[50%]">
           <img src={aboutImg} alt="about Image" className="w-fit" />
         </div>
@@ -64,7 +64,7 @@ const About = () => {
             An Experience <br /> Design Agency
           </h2>
           <p className="text-primary text-xl">Provides a full service range</p>
-          <p className="w-[470px] text-primary leading-8 my-8 ">
+          <p className="lg:w-[470px] text-primary leading-8 my-8 ">
             Ability to put themselves in the merchant's shoes. It is meant to
             partner on the long run, and work as an extension of the merchant's
             team.
