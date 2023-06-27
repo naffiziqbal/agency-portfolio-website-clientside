@@ -52,7 +52,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="flex flex-wrap flex-col md:flex-row  lg:flex-row justify-between items-center my-12 ">
+      <div className="flex flex-nowrap flex-col md:flex-row  lg:flex-row justify-between items-center my-12 gap-5 ">
         <div className="lg:w-[50%]">
           <img src={aboutImg} alt="about Image" className="w-fit" />
         </div>
@@ -75,7 +75,7 @@ const About = () => {
         </div>
       </div>
       {/* Stats Starts Here */}
-      <div className="agency-stats grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 text-primary items-center justify-center py-12">
+      <div className="agency-stats grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 text-primary items-center justify-center py-12 w-3/4 mx-auto">
         <div className="flex border border-[#F3D1BF]   justify-center flex-col items-center p-5">
           <h3 className="text-4xl font-extrabold" id="count1">
             {count1}+
