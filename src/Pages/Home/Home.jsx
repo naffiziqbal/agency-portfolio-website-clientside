@@ -4,6 +4,7 @@ import Partners from './Components/Partners';
 import About from './Components/About';
 import WorkBreif from './Components/WorkBreif';
 import Preview from './Components/Preview';
+import Features from './Components/Features';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           <About />
           <WorkBreif />
           <Preview />
+          <Features />
         </div>
       </div>
     </div>
